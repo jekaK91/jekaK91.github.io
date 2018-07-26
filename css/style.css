@@ -168,7 +168,7 @@ a {
     margin: 0 auto;
 }
 
-.post__preview,
+.post__preview .post__hubs,
 .post__full .post__hubs {
     display: flex;
     flex-flow: row wrap;
