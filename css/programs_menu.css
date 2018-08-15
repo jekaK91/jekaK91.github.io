@@ -1,0 +1,31 @@
+#programs .programs__categories .categories__active {
+    background-color: rgb(62, 158, 241);
+    color: aliceblue;
+}
+
+#programs .sidebar__categories ul li .sub__menu.programs__categories {
+    display: block;
+}
+
+#programs .programs__categories li a {
+    background: rgb(255, 223, 159);
+    border-bottom: 1px solid #bbbbbb;
+    font-size: 0.9em;
+}
+
+#programs .programs__audio li a {
+    background: rgb(255, 244, 223);
+    border-bottom: 1px solid #bbbbbb;
+    font-size: 0.8em;
+}
+
+#programs .programs__categories .programs__active {
+    background-color: rgb(119, 192, 255);
+    color: aliceblue;
+}
+
+#programs .programs__categories a:hover {
+    background-color: var(--background-color-hover);
+    transition: var(--animation-links);
+    border: none;
+}

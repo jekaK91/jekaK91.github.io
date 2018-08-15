@@ -1,0 +1,41 @@
+#books .books__genre .genre__active {
+    background-color: rgb(62, 158, 241);
+    color: aliceblue;
+}
+
+#books .books__genre a:hover {
+    background-color: var(--background-color-hover);
+    transition: var(--animation-links);
+    border: none;
+}
+
+#books .books__genre .list__active {
+    background-color: rgb(119, 192, 255);
+    color: aliceblue;
+}
+
+#books .books__genre .avtor__active {
+    background-color: rgb(87, 177, 255);
+    color: aliceblue;
+}
+
+#books .sidebar__categories ul li .sub__menu.books__genre {
+    display: block;
+}
+
+#books .books__genre li a {
+    background: rgb(255, 223, 159);
+    border-bottom: 1px solid #bbbbbb;
+    font-size: 0.9em;
+}
+
+#books .books__avtor li a {
+    background: rgb(255, 233, 188);
+    border-bottom: 1px solid #dfdfdf;
+    font-size: 0.8em;
+}
+
+#books .list__books li a {
+    background: rgb(255, 244, 223);
+    font-size: 0.7em;
+}

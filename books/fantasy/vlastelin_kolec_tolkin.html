@@ -1,17 +1,20 @@
 <!DOCTYPE html>
-<html lang="ru">
+<html lang="en">
 
 <head>
     <meta charset="UTF-8">
-    <title>My site</title>
-    <link rel="stylesheet" href="css/normalize.css">
-    <link rel="stylesheet" href="libs/css/all.css">
-    <link rel="stylesheet" href="css/style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Властелин колец</title>
+    <link rel="stylesheet" href="../../css/normalize.css">
+    <link rel="stylesheet" href="../../libs/css/all.css">
+    <link rel="stylesheet" href="../../css/style.css">
+    <link rel="stylesheet" href="../../css/post_style.css">
+    <link rel="stylesheet" href="../../css/books__menu.css">
+
 </head>
 
-
-
-<body class="home">
+<body id="books">
     <div class="wrapper">
         <div class="header-wrapper">
             <div class="header__logo">
@@ -19,10 +22,9 @@
                 <p>Евгений Оуэн</p>
 
             </div>
-
             <div class="nav">
                 <ul class="nav__menu">
-                    <li><a class="menu__home menu__active" href="">Главная</a></li>
+                    <li><a class="menu__home " href="../../index.html">Главная</a></li>
                     <li><a class="menu__news" href="">Новости</a></li>
                     <li><a class="menu__publication" href="">Статьи<i class="fas fa-caret-down"></i></a>
                         <ul class="dropdown">
@@ -43,57 +45,44 @@
         </div>
         <div class="main">
             <div class="content">
-                <div class="post post__preview">
-                    <h2 class="post__title"><a href="articles/football/top_5_luchshih_futbolistov_chm_2018_russia.html">Топ 5 лучших футболистов ЧМ 2018 в России</a></h2>
-                    <div class="post__date"> <span>
-                            Дата: 17 июль, 2018
-                        </span> </div>
-                    <ul class="post__hubs">
-                        <li><a href="">Спорт</a></li>
-                        <li><a href="">Футбол</a></li>
-                    </ul>
-                    <div class="post__body">
-                        <div class="img__post"> <img src="images/articles/football/russia_2018.jpg" alt=""> </div>
-                        <a href="articles/football/top_5_luchshih_futbolistov_chm_2018_russia.html" class="post__btn">Подробнее</a>
+                <div class="post__book">
+                    <div class="book__title">
+                        <h3>Властелин колец</h3>
                     </div>
-
-
-                </div>
-                <div class="post post__preview">
-                    <h2 class="post__title"><a href="books/fantasy/vlastelin_kolec_tolkin.html">Джон Толкин "Властелин колец"</a></h2>
-
-                    <ul class="post__hubs">
+                    <div class="book__avtor">
+                        <h4>Джон Рональд Руэл Толкин</h4>
+                    </div>
+                    <ul class="post__hubs books">
                         <li><a href="">Книги</a></li>
                         <li><a href="">Фэнтези</a></li>
                     </ul>
-                    <div class="post__body">
-                        <div class="img__post"> <img src="images/books/fantasy/book__Lord of the Rings.jpg" alt=""> </div>
-                        <div class="post__text">
+                    <div class="book__body">
+                        <div class="book__img">
+                            <img src="../../images/books/fantasy/book__Lord of the Rings.jpg" alt="">
+                        </div>
+                        <div class="book__text">
                             <p>
+                                "Властелин колец"(англ. The Lord of the Rings) — роман английского писателя Дж. Р. Р. Толкина, самое известное произведение жанра фэнтези. Продолжение книги "Хоббит, или туда и обратно". История о борьбе со злом, о Фродо и кольце, о дружбе и любви, чести
+                                и справедливости. Джон Толкин начал писать "Властелин колец" в декабре 1937 года, а закончил В 1948 году, но до 1949 проводилось редактирование ранее написанных частей. Роман был напечатан лишь в 1954—1955 годах. Роман
+                                по задумке автора должен был быть одной книгой, но издатели отказывали печатать книгу целиком, пришлось разделить на три части. Первая часть "Братство кольца", вторая "Две твердыни", третья "Возвращение короля".
                             </p>
-                        </div> <a href="books/fantasy/vlastelin_kolec_tolkin.html" class="post__btn">Подробнее</a> </div>
-                </div>
-                <div class="post post__preview">
-                    <h2 class="post__title"><a href="programs/multimedia/audio/aimp.html">AIMP — лучший аудиоплеер</a></h2>
+                            <p class="author__translation">
+                                <br> Перевод:
 
-                    <ul class="post__hubs">
-                        <li><a href="">Мультимедиа</a></li>
-                        <li><a href="">Аудиоплеер</a></li>
-                    </ul>
-                    <div class="post__body">
-                        <div class="img__post"> <img src="images/programs/multimedia_audio/aimp.jpg" alt=""> </div>
-                        <div class="post__text">
-                            <p>
+                                <br> Н.Григорьева, В.Грушецкий "Властелин колец".
                             </p>
-                        </div> <a href="programs/multimedia/audio/aimp.html" class="post__btn">Подробнее</a> </div>
-                </div>
-                <div class="page__footer">
-                    <ul class="navigation__pages">
-                        <li><a class="page__link page__active">1</a></li>
-                        <li><a class="page__link" href="">2</a></li>
-                        <li><a class="page__link" href="">3</a></li>
-                        <li class="ahead"><a class="page__link" href="">Вперед</a></li>
-                    </ul>
+                        </div>
+                    </div>
+                    <div class="book__footer">
+                        <div class="book__download">
+                            <span><a class="download__btn" href="https://yadi.sk/i/z6BUTl9M3Zvujo"><span>fb2</span>Братство кольца</a>
+                            </span>
+                            <span><a class="download__btn" href="https://yadi.sk/i/TpfXAUGc3ZwjgH"><span>fb2</span>Две твердыни</a>
+                            </span>
+                            <span><a class="download__btn" href="https://yadi.sk/d/ylZfob3a3Zwjhe"><span>fb2</span>Возвращение короля</a>
+                            </span>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
@@ -101,13 +90,25 @@
             <div class="sidebar__categories">
                 <ul>
                     <h3 class="categories__list">Категории</h3>
-                    <li><a class="books" href=""><i class="fas fa-caret-down"></i>Книги</a>
-                        <ul class="sub__menu">
+                    <li><a href=""><i class="fas fa-caret-down"></i>Книги</a>
+                        <ul class="sub__menu books__genre">
                             <li><a href="">Фантастика</a></li>
-                            <li><a href="">Фэнтези</a></li>
+                            <li><a class="genre__active" href="">Фэнтези</a>
+                                <ul class="books__avtor">
+                                    <li><a href="">Урсула ле Гуин</a></li>
+                                    <li><a class="avtor__active" href="">Джон Толкин</a>
+                                        <ul class="list__books">
+                                            <li><a href="">Об авторе</a></li>
+                                            <li><a class="list__active" href="">Властелин колец</a></li>
+                                            <li><a href="">Хоббит, или туда и обратно</a></li>
+                                        </ul>
+                                    </li>
+                                    <li><a href="">Роберт Сальваторе</a></li>
+                                </ul>
+                            </li>
                         </ul>
                     </li>
-                    <li><a class="pictures" href=""><i class="fas fa-caret-down"></i>Картинки</a>
+                    <li><a href=""><i class="fas fa-caret-down"></i>Картинки</a>
                         <ul class="sub__menu">
                             <li><a href="">Животные</a></li>
                             <li><a href="">Фэнтези</a></li>
