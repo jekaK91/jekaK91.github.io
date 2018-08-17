@@ -164,7 +164,7 @@
     .post__programs .post__hubs {
         display: flex;
         flex-flow: row wrap;
-        padding: 15px 0 15px 15px;
+        padding: 6px 0 6px 15px;
     }
     
     .post__hubs li {
@@ -198,7 +198,7 @@
     .post__date {
         font-size: 0.8em;
         color: #6d6d6d;
-        padding: 12px 0 0 15px;
+        padding: 8px 0 0 15px;
         font-weight: normal;
         font-style: italic;
     }
@@ -294,7 +294,7 @@
         color: #ffffff;
         font-weight: 600;
         font-style: normal;
-        font-size: 1em;
+        font-size: 1.1em;
         border-bottom: 1px solid rgba(190, 190, 190, 0.486);
     }
     
@@ -326,17 +326,18 @@
     }
     /*выпадающее меню, НАЧАЛО*/
     
-    .sidebar__categories ul li .sub__menu {
+    .sidebar__categories .sub__menu {
         display: none;
     }
     
-    .sidebar__categories li ul.sub__menu li a {
+    .sidebar__categories .sub__menu li a {
         color: #3c6f75;
-        background-color: rgb(255, 223, 159);
-        font-size: 1em;
+        background: rgb(255, 223, 159);
+        border-bottom: 1px solid #46301d5b;
+        font-size: 0.9em;
     }
     
-    .sidebar__categories li ul.sub__menu li a:hover {
+    .sidebar__categories .sub__menu li a:hover {
         background-color: #1da1f2;
         color: rgb(255, 255, 255);
     }

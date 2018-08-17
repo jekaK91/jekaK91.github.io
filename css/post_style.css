@@ -53,6 +53,11 @@ a {
     width: 210px;
 }
 
+.programs__download {
+    text-align: center;
+    margin-top: 10px;
+}
+
 .programs__download .download__btn {
     padding: 10px 8px;
     background-color: rgb(0, 132, 255);
